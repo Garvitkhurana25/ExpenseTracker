@@ -18,7 +18,10 @@ connectDB();
 // 2. Middleware
 app.use(
     cors({
-        origin: process.env.CLIENT_URL || "*",
+        origin: [ 
+                    process.env.CLIENT_URL || "*",
+                    "https://your-frontend-name.vercel.app"
+        ],
         methods: ["GET", "POST", "PUT", "DELETE"],
         allowedHeaders: ["Content-Type", "Authorization"],
     })
