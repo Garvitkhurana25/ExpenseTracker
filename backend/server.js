@@ -22,6 +22,7 @@ app.use(
                     process.env.CLIENT_URL || "*",
                     "https://your-frontend-name.vercel.app"
         ],
+        credentials: true,
         methods: ["GET", "POST", "PUT", "DELETE"],
         allowedHeaders: ["Content-Type", "Authorization"],
     })
