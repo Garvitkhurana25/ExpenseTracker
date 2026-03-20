@@ -11,7 +11,7 @@ import { addThousandSeperator } from "../../utils/helper";
 import RecentTransactions from "../../components/Dashboard/RecentTransactions";
 import FinanceOverview from "../../components/Dashboard/FinanceOverview";
 import ExpenseTransactions from "../../components/Dashboard/ExpenseTransactions";
-import Last30DaysExpenses from "../../components/Dashboard/last30DaysExpenses";
+import Last30DaysExpenses from "../../components/Dashboard/Last30DaysExpenses";
 import RecentIncomeWithChart from "../../components/Dashboard/RecentIncomeWithChart";
 import RecentIncome from "../../components/Dashboard/RecentIncome";
 import FinancialStats from "../../components/Dashboard/FinancialStats"; // Import the new component
