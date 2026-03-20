@@ -23,7 +23,7 @@ app.use(
                     "https://expense-tracker-one-xi-70.vercel.app"
         ],
         credentials: true,
-        methods: ["GET", "POST", "PUT", "DELETE"],
+        methods: ["GET", "POST", "PUT", "DELETE","OPTIONS"],
         allowedHeaders: ["Content-Type", "Authorization"],
     })
 );
