@@ -20,7 +20,7 @@ app.use(
     cors({
         origin: [ 
                     process.env.CLIENT_URL || "*",
-                    "https://your-frontend-name.vercel.app"
+                    "https://expense-tracker-one-xi-70.vercel.app/login"
         ],
         credentials: true,
         methods: ["GET", "POST", "PUT", "DELETE"],
