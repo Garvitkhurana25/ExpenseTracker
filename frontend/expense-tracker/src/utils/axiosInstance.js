@@ -2,7 +2,7 @@ import axios from "axios";
 import {BASE_URL} from "./apiPaths";
 
 const axiosInstance = axios.create({
-    baseURL: BASE_URL || import.meta.env.VITE_API_URL,
+    baseURL: BASE_URL,
     withCredentials: true,
     timeout:10000,
     headers: {
