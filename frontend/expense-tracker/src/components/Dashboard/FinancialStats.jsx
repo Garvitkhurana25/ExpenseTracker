@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import moment from "moment";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
 import { LuFilter, LuTrendingUp } from "react-icons/lu";
-import axiosInstance from "../../utils/axiosinstance";
+import axiosInstance from "../../utils/axiosInstance";
 import { API_PATHS } from "../../utils/apiPaths";
 
 const FinancialStats = () => {

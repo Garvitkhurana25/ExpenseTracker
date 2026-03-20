@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import axiosInstance from '../../utils/axiosinstance';
+import axiosInstance from '../../utils/axiosInstance';
 import { 
     LuSearch, LuTrendingUp, LuTrendingDown, LuWallet, 
     LuLogOut, LuTrash2, LuDownload, LuEye, LuEyeOff 

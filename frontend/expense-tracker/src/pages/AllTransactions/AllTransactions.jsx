@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import DashboardLayout from "../../components/layouts/DashboardLayout";
-import axiosInstance from "../../utils/axiosinstance";
+import axiosInstance from "../../utils/axiosInstance";
 import { API_PATHS } from "../../utils/apiPaths";
 import TransactionInfoCard from "../../components/Cards/TransactionInfoCard";
 import AddTransactionModal from "../../components/Modals/AddTransactionModal";

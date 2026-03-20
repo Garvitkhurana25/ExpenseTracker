@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import DashboardLayout from "../../components/layouts/DashboardLayout";
 import { API_PATHS } from "../../utils/apiPaths";
 import toast from "react-hot-toast";
-import axiosInstance from "../../utils/axiosinstance";
+import axiosInstance from "../../utils/axiosInstance";
 import ExpenseOverview from "../../components/Expense/ExpenseOverview";
 import Model from "../../components/Model";
 // import AddExpenseForm from "../../components/Expense/AddExpenseForm";
